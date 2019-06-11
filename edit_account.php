@@ -164,7 +164,7 @@ if($check==1&&$name!=""&&$temp==""){
   E-mail: <input type="text" name="email" value="<?php echo $email;?>" readonly>
   <span class="error">* <?php echo $emailErr;?></span>
   <br><br>
-  Password: <input type="text" name="password" value="<?php echo $password;?>">
+  Password: <input type="password" name="password" value="<?php echo $password;?>">
   <span class="error">* <?php echo $passErr;?></span>
   <br><br>
   Website: <input type="text" name="website" value="<?php echo $website;?>">
